@@ -118,7 +118,7 @@ img {
     float: left;
     height: 250px;
     padding: 0 10px 0 0;
-    
+    margin-bottom: 60px;
 }
 .vesti .datumSlika  {
     height: 30px;
@@ -270,38 +270,8 @@ img {
     width: 100%;
     display: block;
 }
-.item::before {
-    content: url('images/Logo2.png');
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto;
-    margin-top: -100px;
-    opacity: 0;
-    transition: .3s;
-    transition-delay: .2s;
-    z-index: 1;
-    text-align: center;
-}
-.item::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 10px;
-    height: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: .3s;
-}
-.item:hover::after {
-    height: 100%;
-}
-.item:hover::before{
-    margin-top: 0;
-    opacity: 1;
+.item:hover {
+    transform: scale(1.1);
 }
 /*O nama*/
 .onama .container {
@@ -530,7 +500,7 @@ footer{
     color: #ca0000;
     padding: 15px;
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
 }
     /*O nama*/
     .onama .container {
@@ -588,6 +558,7 @@ footer{
 /*Galerija*/
 .portfolio .container {
     max-width: 1140px;
+    width: 80%;
     margin: auto;
 }
 .row {
@@ -668,40 +639,12 @@ footer{
     width: 100%;
     display: block;
 }
-.item::before {
-    content: "GALERIJA SLIKA";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    width: 100%;
-    margin-top: -100px;
-    opacity: 0;
-    transition: .3s;
-    transition-delay: .2s;
-    z-index: 1;
-    text-align: center;
-}
-.item::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 10px;
-    height: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: .3s;
-}
-.item:hover::after {
-    height: 100%;
-}
-.item:hover::before{
-    margin-top: 0;
-    opacity: 1;
+.kontakt iframe {
+    width: auto;
+    float: left;
+    height: 250px;
+    padding: 0 10px 0 0;
+    margin-top: -50px;
 }
 }
 

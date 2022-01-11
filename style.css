@@ -113,6 +113,7 @@ img {
     margin-left: 10%;
     padding-top: 60px;
     margin-right: 10%;
+    margin-bottom: 60px;
 }
 .vesti .vestiSlika  {
     float: left;
@@ -436,6 +437,13 @@ footer{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     color: #ca0000;
+}
+.kontakt iframe {
+    float: auto;
+    width: 90%;
+    height: 250px;
+    padding: 0 10px 0 0;
+    margin-top: -50px;
 }
 }
 @media only screen and (max-width:300px){

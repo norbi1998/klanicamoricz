@@ -400,11 +400,12 @@ footer{
     }   
 .vesti .vestiSlika  {
     float: left;
-    height: 200px;
+    height: 250px;
     width: auto;
     padding: 0 10px 0 0;
     margin-bottom: 60px;
 }
+
 .onama .container {
     margin-left: 10%;
     margin-top: 60px;

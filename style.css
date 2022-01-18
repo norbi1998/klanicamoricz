@@ -442,6 +442,7 @@ footer{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     color: #ca0000;
+    margin-bottom: 40px;
 }
 .prodavnice .text {
     margin-top: 20px;
@@ -457,6 +458,11 @@ footer{
     height: 250px;
     padding: 0 10px 0 0;
     margin-top: -50px;
+}
+.bedz img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
 }
 }
 @media only screen and (max-width:300px){
@@ -486,6 +492,15 @@ footer{
     .gallery img{
         width: 100%;
         height: 100%;
+    }
+    
+/*POČETNA*/
+    .vesti .container {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 60px;
+    margin-right: 10%;
+    margin-bottom: 60px;
     }
     .vesti .datumSlika  {
         height: 30px;
@@ -529,20 +544,17 @@ footer{
         margin-top: 60px;
         margin-bottom: 60px;
         margin-right: 10%;
+        width: 80%;
     }
     .onama img {
-        margin-left: 10%;
-        margin-right: 10%;
         float: left;
         width: 100%;
         height: auto;
         padding: 0 10px 0 0;
         margin-top: -50px;
-    
     }
     .onama .text {
         float: left;
-        font-size: 8px;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
         color: #ca0000;
@@ -568,6 +580,7 @@ footer{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     color: #ca0000;
+    margin-bottom: 40px;
 }
 .prodavnice .text {
     float: left;
